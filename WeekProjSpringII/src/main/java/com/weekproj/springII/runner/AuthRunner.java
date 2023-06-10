@@ -1,12 +1,9 @@
 package com.weekproj.springII.runner;
-import java.util.Set;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
-
 import com.weekproj.springII.entity.ERole;
 import com.weekproj.springII.entity.Role;
 import com.weekproj.springII.repository.RoleRepository;
