@@ -1,0 +1,209 @@
+11:05:04.668 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Starting WeekProjSpringIiiApplication using Java 17.0.7 with PID 21228 (F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII\target\classes started by UTENTE in F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII)
+11:05:04.671 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -No active profile set, falling back to 1 default profile: "default"
+11:05:04.730 [thread] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[36] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:05:04.731 [thread] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[36] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:05:05.433 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:05:05.454 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+11:05:06.039 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat initialized with port(s): 8080 (http)
+11:05:06.050 [thread] INFO  org.apache.catalina.core.StandardService[36] -Starting service [Tomcat]
+11:05:06.050 [thread] INFO  org.apache.catalina.core.StandardEngine[36] -Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:05:06.131 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring embedded WebApplicationContext
+11:05:06.131 [thread] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext[36] -Root WebApplicationContext: initialization completed in 1399 ms
+11:05:06.268 [thread] INFO  org.hibernate.jpa.internal.util.LogHelper[36] -HHH000204: Processing PersistenceUnitInfo [name: default]
+11:05:06.321 [thread] INFO  org.hibernate.Version[36] -HHH000412: Hibernate ORM core version 6.2.2.Final
+11:05:06.323 [thread] INFO  org.hibernate.cfg.Environment[36] -HHH000406: Using bytecode reflection optimizer
+11:05:06.457 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+11:05:06.610 [thread] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo[36] -No LoadTimeWeaver setup: ignoring JPA class transformer
+11:05:06.631 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Starting...
+11:05:06.842 [thread] INFO  com.zaxxer.hikari.pool.HikariPool[36] -HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7bcf4a3
+11:05:06.844 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Start completed.
+11:05:06.903 [thread] INFO  org.hibernate.orm.dialect[36] -HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@25f3a1e7
+11:05:07.090 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+11:05:07.759 [thread] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[36] -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:05:07.891 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:05:07.944 [thread] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration[36] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:05:08.291 [thread] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[36] -LiveReload server is running on port 35729
+11:05:08.334 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat started on port(s): 8080 (http) with context path ''
+11:05:08.344 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Started WeekProjSpringIiiApplication in 4.205 seconds (process running for 5.144)
+11:06:32.127 [thread] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[36] -Application shutdown requested.
+11:06:32.141 [thread] INFO  org.apache.catalina.core.StandardService[36] -Stopping service [Tomcat]
+11:06:32.151 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Closing JPA EntityManagerFactory for persistence unit 'default'
+11:06:32.161 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Shutdown initiated...
+11:06:32.178 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Shutdown completed.
+11:55:08.235 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Starting WeekProjSpringIiiApplication using Java 17.0.7 with PID 10404 (F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII\target\classes started by UTENTE in F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII)
+11:55:08.237 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -No active profile set, falling back to 1 default profile: "default"
+11:55:08.294 [thread] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[36] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:55:08.294 [thread] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[36] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:55:09.098 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:55:09.172 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+11:55:10.002 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat initialized with port(s): 8080 (http)
+11:55:10.018 [thread] INFO  org.apache.catalina.core.StandardService[36] -Starting service [Tomcat]
+11:55:10.018 [thread] INFO  org.apache.catalina.core.StandardEngine[36] -Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:55:10.145 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring embedded WebApplicationContext
+11:55:10.146 [thread] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext[36] -Root WebApplicationContext: initialization completed in 1850 ms
+11:55:10.336 [thread] INFO  org.hibernate.jpa.internal.util.LogHelper[36] -HHH000204: Processing PersistenceUnitInfo [name: default]
+11:55:10.413 [thread] INFO  org.hibernate.Version[36] -HHH000412: Hibernate ORM core version 6.2.2.Final
+11:55:10.416 [thread] INFO  org.hibernate.cfg.Environment[36] -HHH000406: Using bytecode reflection optimizer
+11:55:10.585 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+11:55:10.749 [thread] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo[36] -No LoadTimeWeaver setup: ignoring JPA class transformer
+11:55:10.771 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Starting...
+11:55:10.975 [thread] INFO  com.zaxxer.hikari.pool.HikariPool[36] -HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b40850a
+11:55:10.978 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Start completed.
+11:55:11.039 [thread] INFO  org.hibernate.orm.dialect[36] -HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@11227f14
+11:55:11.272 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+11:55:12.100 [thread] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[36] -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:55:12.168 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:55:12.462 [thread] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration[36] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:55:12.826 [thread] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[36] -LiveReload server is running on port 35729
+11:55:12.880 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat started on port(s): 8080 (http) with context path ''
+11:55:12.892 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Started WeekProjSpringIiiApplication in 5.117 seconds (process running for 6.094)
+11:56:10.394 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:56:10.395 [thread] INFO  org.springframework.web.servlet.DispatcherServlet[36] -Initializing Servlet 'dispatcherServlet'
+11:56:10.398 [thread] INFO  org.springframework.web.servlet.DispatcherServlet[36] -Completed initialization in 2 ms
+11:56:54.591 [thread] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[36] -Application shutdown requested.
+11:56:54.605 [thread] INFO  org.apache.catalina.core.StandardService[36] -Stopping service [Tomcat]
+11:56:54.607 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+11:56:54.615 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Closing JPA EntityManagerFactory for persistence unit 'default'
+11:56:54.619 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Shutdown initiated...
+11:56:54.628 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Shutdown completed.
+11:57:18.764 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Starting WeekProjSpringIiiApplication using Java 17.0.7 with PID 10336 (F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII\target\classes started by UTENTE in F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII)
+11:57:18.767 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -No active profile set, falling back to 1 default profile: "default"
+11:57:18.818 [thread] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[36] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:57:18.819 [thread] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[36] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:57:19.513 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:57:19.577 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+11:57:24.140 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat initialized with port(s): 8080 (http)
+11:57:24.150 [thread] INFO  org.apache.catalina.core.StandardService[36] -Starting service [Tomcat]
+11:57:24.150 [thread] INFO  org.apache.catalina.core.StandardEngine[36] -Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:57:24.238 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring embedded WebApplicationContext
+11:57:24.238 [thread] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext[36] -Root WebApplicationContext: initialization completed in 5419 ms
+11:57:24.385 [thread] INFO  org.hibernate.jpa.internal.util.LogHelper[36] -HHH000204: Processing PersistenceUnitInfo [name: default]
+11:57:24.444 [thread] INFO  org.hibernate.Version[36] -HHH000412: Hibernate ORM core version 6.2.2.Final
+11:57:24.447 [thread] INFO  org.hibernate.cfg.Environment[36] -HHH000406: Using bytecode reflection optimizer
+11:57:24.594 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+11:57:24.744 [thread] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo[36] -No LoadTimeWeaver setup: ignoring JPA class transformer
+11:57:24.762 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Starting...
+11:57:24.988 [thread] INFO  com.zaxxer.hikari.pool.HikariPool[36] -HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55ade6ac
+11:57:24.990 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Start completed.
+11:57:25.074 [thread] INFO  org.hibernate.orm.dialect[36] -HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@2e8a83e2
+11:57:25.311 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+11:57:26.021 [thread] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[36] -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:57:26.071 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:57:26.346 [thread] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration[36] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:57:26.685 [thread] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[36] -LiveReload server is running on port 35729
+11:57:26.730 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat started on port(s): 8080 (http) with context path ''
+11:57:26.740 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Started WeekProjSpringIiiApplication in 8.433 seconds (process running for 9.4)
+11:57:31.024 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:57:31.024 [thread] INFO  org.springframework.web.servlet.DispatcherServlet[36] -Initializing Servlet 'dispatcherServlet'
+11:57:31.027 [thread] INFO  org.springframework.web.servlet.DispatcherServlet[36] -Completed initialization in 3 ms
+11:58:24.801 [thread] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[36] -Application shutdown requested.
+11:58:24.818 [thread] INFO  org.apache.catalina.core.StandardService[36] -Stopping service [Tomcat]
+11:58:24.820 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+11:58:24.829 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Closing JPA EntityManagerFactory for persistence unit 'default'
+11:58:24.834 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Shutdown initiated...
+11:58:24.851 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Shutdown completed.
+11:58:29.831 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Starting WeekProjSpringIiiApplication using Java 17.0.7 with PID 14612 (F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII\target\classes started by UTENTE in F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII)
+11:58:29.834 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -No active profile set, falling back to 1 default profile: "default"
+11:58:29.892 [thread] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[36] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:58:29.892 [thread] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[36] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:58:30.589 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:58:30.658 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+11:58:31.276 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat initialized with port(s): 8080 (http)
+11:58:31.287 [thread] INFO  org.apache.catalina.core.StandardService[36] -Starting service [Tomcat]
+11:58:31.288 [thread] INFO  org.apache.catalina.core.StandardEngine[36] -Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:58:31.372 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring embedded WebApplicationContext
+11:58:31.373 [thread] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext[36] -Root WebApplicationContext: initialization completed in 1479 ms
+11:58:31.527 [thread] INFO  org.hibernate.jpa.internal.util.LogHelper[36] -HHH000204: Processing PersistenceUnitInfo [name: default]
+11:58:31.585 [thread] INFO  org.hibernate.Version[36] -HHH000412: Hibernate ORM core version 6.2.2.Final
+11:58:31.588 [thread] INFO  org.hibernate.cfg.Environment[36] -HHH000406: Using bytecode reflection optimizer
+11:58:31.740 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+11:58:31.887 [thread] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo[36] -No LoadTimeWeaver setup: ignoring JPA class transformer
+11:58:31.906 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Starting...
+11:58:32.103 [thread] INFO  com.zaxxer.hikari.pool.HikariPool[36] -HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7650ebb8
+11:58:32.105 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Start completed.
+11:58:32.159 [thread] INFO  org.hibernate.orm.dialect[36] -HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@23a14c45
+11:58:32.382 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+11:58:33.120 [thread] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[36] -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:58:33.178 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:58:33.486 [thread] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration[36] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:58:33.836 [thread] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[36] -LiveReload server is running on port 35729
+11:58:33.891 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat started on port(s): 8080 (http) with context path ''
+11:58:33.902 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Started WeekProjSpringIiiApplication in 4.573 seconds (process running for 5.499)
+11:58:37.428 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:58:37.429 [thread] INFO  org.springframework.web.servlet.DispatcherServlet[36] -Initializing Servlet 'dispatcherServlet'
+11:58:37.430 [thread] INFO  org.springframework.web.servlet.DispatcherServlet[36] -Completed initialization in 1 ms
+11:58:48.483 [thread] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[36] -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+11:58:48.498 [thread] INFO  org.apache.catalina.core.StandardService[36] -Stopping service [Tomcat]
+11:58:48.499 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+11:58:48.507 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Closing JPA EntityManagerFactory for persistence unit 'default'
+11:58:48.511 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Shutdown initiated...
+11:58:48.520 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Shutdown completed.
+11:58:48.610 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Starting WeekProjSpringIiiApplication using Java 17.0.7 with PID 14612 (F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII\target\classes started by UTENTE in F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII)
+11:58:48.610 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -No active profile set, falling back to 1 default profile: "default"
+11:58:48.791 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:58:48.799 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+11:58:48.893 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat initialized with port(s): 8080 (http)
+11:58:48.893 [thread] INFO  org.apache.catalina.core.StandardService[36] -Starting service [Tomcat]
+11:58:48.893 [thread] INFO  org.apache.catalina.core.StandardEngine[36] -Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:58:49.305 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring embedded WebApplicationContext
+11:58:49.305 [thread] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext[36] -Root WebApplicationContext: initialization completed in 693 ms
+11:58:49.338 [thread] INFO  org.hibernate.jpa.internal.util.LogHelper[36] -HHH000204: Processing PersistenceUnitInfo [name: default]
+11:58:49.345 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+11:58:49.346 [thread] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo[36] -No LoadTimeWeaver setup: ignoring JPA class transformer
+11:58:49.346 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-2 - Starting...
+11:58:49.696 [thread] INFO  com.zaxxer.hikari.pool.HikariPool[36] -HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@463cd0b7
+11:58:49.696 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-2 - Start completed.
+11:58:49.705 [thread] INFO  org.hibernate.orm.dialect[36] -HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@25ae78a9
+11:58:49.714 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+11:58:49.739 [thread] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[36] -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:58:49.757 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:58:49.854 [thread] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration[36] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:58:49.981 [thread] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[36] -LiveReload server is running on port 35729
+11:58:50.039 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat started on port(s): 8080 (http) with context path ''
+11:58:50.049 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Started WeekProjSpringIiiApplication in 1.467 seconds (process running for 21.647)
+11:58:50.054 [thread] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener[36] -Condition evaluation unchanged
+11:58:54.640 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:58:54.641 [thread] INFO  org.springframework.web.servlet.DispatcherServlet[36] -Initializing Servlet 'dispatcherServlet'
+11:58:54.642 [thread] INFO  org.springframework.web.servlet.DispatcherServlet[36] -Completed initialization in 1 ms
+12:07:30.494 [thread] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[36] -Application shutdown requested.
+12:07:30.506 [thread] INFO  org.apache.catalina.core.StandardService[36] -Stopping service [Tomcat]
+12:07:30.506 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:07:30.511 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Closing JPA EntityManagerFactory for persistence unit 'default'
+12:07:30.512 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-2 - Shutdown initiated...
+12:07:30.518 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-2 - Shutdown completed.
+12:08:31.034 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Starting WeekProjSpringIiiApplication using Java 17.0.7 with PID 18892 (F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII\target\classes started by UTENTE in F:\Epicode\JAVA-UNIT\BACK-END_JAVA_U2\WeekProjSpringIII)
+12:08:31.037 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -No active profile set, falling back to 1 default profile: "default"
+12:08:31.089 [thread] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[36] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:08:31.090 [thread] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[36] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:08:31.799 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:08:31.878 [thread] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate[36] -Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+12:08:32.571 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat initialized with port(s): 8080 (http)
+12:08:32.581 [thread] INFO  org.apache.catalina.core.StandardService[36] -Starting service [Tomcat]
+12:08:32.582 [thread] INFO  org.apache.catalina.core.StandardEngine[36] -Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:08:32.662 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring embedded WebApplicationContext
+12:08:32.663 [thread] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext[36] -Root WebApplicationContext: initialization completed in 1573 ms
+12:08:32.803 [thread] INFO  org.hibernate.jpa.internal.util.LogHelper[36] -HHH000204: Processing PersistenceUnitInfo [name: default]
+12:08:32.859 [thread] INFO  org.hibernate.Version[36] -HHH000412: Hibernate ORM core version 6.2.2.Final
+12:08:32.861 [thread] INFO  org.hibernate.cfg.Environment[36] -HHH000406: Using bytecode reflection optimizer
+12:08:33.003 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+12:08:33.148 [thread] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo[36] -No LoadTimeWeaver setup: ignoring JPA class transformer
+12:08:33.164 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Starting...
+12:08:33.346 [thread] INFO  com.zaxxer.hikari.pool.HikariPool[36] -HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@414b39a8
+12:08:33.348 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Start completed.
+12:08:33.397 [thread] INFO  org.hibernate.orm.dialect[36] -HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@651bbf1b
+12:08:33.606 [thread] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator[36] -HHH000021: Bytecode provider name : bytebuddy
+12:08:34.291 [thread] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[36] -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:08:34.344 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:08:34.620 [thread] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration[36] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:08:34.940 [thread] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[36] -LiveReload server is running on port 35729
+12:08:34.981 [thread] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[36] -Tomcat started on port(s): 8080 (http) with context path ''
+12:08:34.990 [thread] INFO  com.proj.alb.WeekProjSpringIiiApplication[36] -Started WeekProjSpringIiiApplication in 4.404 seconds (process running for 5.326)
+12:08:41.952 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:08:41.952 [thread] INFO  org.springframework.web.servlet.DispatcherServlet[36] -Initializing Servlet 'dispatcherServlet'
+12:08:41.953 [thread] INFO  org.springframework.web.servlet.DispatcherServlet[36] -Completed initialization in 1 ms
+12:09:36.828 [thread] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[36] -Application shutdown requested.
+12:09:36.841 [thread] INFO  org.apache.catalina.core.StandardService[36] -Stopping service [Tomcat]
+12:09:36.843 [thread] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][36] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:09:36.851 [thread] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[36] -Closing JPA EntityManagerFactory for persistence unit 'default'
+12:09:36.854 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Shutdown initiated...
+12:09:36.864 [thread] INFO  com.zaxxer.hikari.HikariDataSource[36] -HikariPool-1 - Shutdown completed.
